@@ -1,0 +1,32 @@
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+svg {
+  height: 100%;
+  width: 100%;
+}
+
+.graticule path {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 0.6;
+  stroke-opacity: 0.6;
+}
+
+.map path {
+  fill: #333;
+  stroke: white;
+  stroke-width: 0.5;
+}
+
+.bounding-box rect {
+   fill: none;
+   stroke: #ccc;
+   stroke-width: 1.5px;
+   stroke-dasharray: 4 4;
+}
+.centroid circle {
+  pointer-events: none;
+}
